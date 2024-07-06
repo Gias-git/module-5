@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+
+* {
+    margin: 0;
+}
+
+#hero {
+    height: 735px;
+    background-image: linear-gradient(0deg,
+            rgb(16, 16, 16) -19.5%,
+            rgba(16, 16, 16, 0) 100%),
+        url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn {
+    padding: 17px 25px 17px 25px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+}
+
+#hero .heroContent {
+    width: 819px;
+}
+
+#hero .heroContent .subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 13px;
+
+}
+
+#hero .heroContent .hero_header {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+#hero .heroContent .hero_description {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+#cardcontainer {
+    width: 1056px;
+    margin: 100px auto;
+    font-family: Work Sans;
+}
+
+#cardcontainer .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#cardcontainer .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.cardbox {
+    margin-top: 38px;
+    display: flex;
+    gap: 17px;
+}
+
+.card {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-img {
+    width: 340px;
+}
+
+.card .card-img img {
+    width: 100%;
+}
+
+.card .Shop {
+    background-color: aqua;
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+.card p {
+    text-align: center;
+}
+
+#about-us {
+    margin: 80px 0px;
+    padding: 50px;
+    height: 661px;
+    width: 1920px;
+    display: flex;
+    border: 1px solid rgba(186, 182, 182, 0.584);
+    justify-content: center;
+}
+
+#about-us .about-img {
+
+    width: 900px;
+    height: 571px;
+}
+
+#about-us .about-img img {
+    width: 100%;
+    height: 100%;
+}
+
+#about-us .about-desc {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin: 105px 0;
+    align-items: center;
+}
+
+#about-us .about-desc h1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+#about-us .about-desc p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    opacity: 0.6;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+#about-us .follow{
+    box-sizing: border-box;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+width: 100%;
+padding: 30px 1px 3px 30px;
+}
+#about-us .follow p{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 25px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+#about-us .social{
+    height: 30px;
+}
+.fa {
+    padding: 10px;
+    font-size: 80px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+.fa-facebook {
+    background: #0049e7;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
